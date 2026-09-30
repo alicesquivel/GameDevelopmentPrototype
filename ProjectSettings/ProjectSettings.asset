@@ -929,11 +929,11 @@ PlayerSettings:
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
-  cloudProjectId: 
+  cloudProjectId: 39baac44-bd22-4a93-8a9d-26fb40290830
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Lab_5
+  organizationId: alicesquivel
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
