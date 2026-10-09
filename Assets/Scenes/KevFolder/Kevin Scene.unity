@@ -1474,10 +1474,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 94
   m_CollisionDetection: 0
 --- !u!65 &305466712
 BoxCollider:
@@ -1928,10 +1928,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 94
   m_CollisionDetection: 0
 --- !u!114 &392693685
 MonoBehaviour:
@@ -4506,7 +4506,7 @@ GameObject:
   - component: {fileID: 1372137905}
   - component: {fileID: 1372137904}
   - component: {fileID: 1372137903}
-  - component: {fileID: 1372137902}
+  - component: {fileID: 1372137907}
   m_Layer: 0
   m_Name: Goal
   m_TagString: Untagged
@@ -4514,18 +4514,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1372137902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372137901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21bf20fd4d6da438981b4d0f9b66eb48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GoalTrigger
 --- !u!65 &1372137903
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4619,6 +4607,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1372137907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372137901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf3cf68c65e071342bb9bf95fa87a414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeansTrigger
 --- !u!1 &1382050169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5923,13 +5923,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734788535}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.07688514, w: 0.99704}
-  m_LocalPosition: {x: -3.59, y: -0.8, z: 0.04}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.527, y: -0.254, z: 0.04}
   m_LocalScale: {x: 7, y: 0.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 8.819}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1919798841
 GameObject:
   m_ObjectHideFlags: 0
